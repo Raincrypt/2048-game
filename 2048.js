@@ -53,7 +53,8 @@ const resetGame = () => {
             setTile(tile, 0);
         }
     }
-
+    score = 0;
+    finalScore.innerText = 0;
     generateTwo(board);
     generateTwo(board);
 }

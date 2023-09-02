@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+
+    <link rel="stylesheet" href="2048.css">
+</head>
+<body>
+    <main>
+        <h1>2048</h1>
+        <hr/>
+        <h2>Score: <span id="score">0</span></h2>
+
+        <!-- main Game Board -->
+        <div id="board">
+            
+        </div>
+        <!-- --------------- -->
+
+        <div class="game-over-container">
+            <h1 id="game-over-msg">Game Over</h1>
+            <button onclick="resetGame()">RETRY ↻</button>
+        </div>
+
+    </main>
+    <footer>
+        <small>Thank's for playing this game. Hope you are having a great time ! ! !</small>
+    </footer>
+
+    <!-- tile template -->
+    <template>
+        <div class="tile"></div>
+    </template>
+
+    <script src="2048.js"></script>
+</body>
+</html>

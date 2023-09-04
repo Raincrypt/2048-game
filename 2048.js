@@ -75,13 +75,7 @@ const setTile = (newTile, value) => {
 // ======================== GAME LOGIC ==============================
 
 // Logic for Game Over
-const isGameOver = (board) => {
-    for (let r = 0; r < maxRow; r++) {
-        for (let c = 0; c < maxColumn; c++) {
-            let currNum = board[r][c];
-            
-        }
-    }
+const isGameOver = () => {
     return true;
 }
 

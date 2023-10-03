@@ -17,9 +17,15 @@ main{
     min-height: calc(100vh - 40px);
 }
 
+p{
+    margin-block: 2rem 0.5rem;
+    font-size: x-large;
+    
+}
+
 hr{
     width: 80%;
-    margin-block: 3rem;
+    margin-bottom: 3rem;
 }
 
 #board{
